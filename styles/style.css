@@ -23,11 +23,6 @@ section h2 {
     margin-bottom: 20px;
 }
 
-section p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
 footer {
     background-color: #333;
     color: #fff;
@@ -52,7 +47,7 @@ footer {
 }
 
 #carwash-body {
-    background-image: url('../images/carwash.png');
+    background-image: url('../images/carwash.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: 0px;
@@ -70,4 +65,40 @@ footer {
     color: #fff;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+    max-width:800px;
+    margin: auto;
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 579px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 580px) and (max-width: 1499px) {
+  body {
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 2499px) {
+    body {
+      font-size: 1.5em;
+    }
+}
+
+@media (min-width: 2500px) {
+    body {
+      font-size: 2em;
+    }
+}
+
+#gmaps {
+    max-height: 300px;
 }
