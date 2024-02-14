@@ -10,7 +10,7 @@
 </head>
 <body id="hair-salon-body">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark main-color">
         <a class="navbar-brand" href="#">Garmont</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
     
     <div class="container-fluid mt-5 px-lg-5">
 
-        <header class="text-center">
+        <header class="text-center main-color">
             <h1>Garmont</h1>
             <p>Opening Doors to Quality and Security.</p>
         </header>
@@ -43,10 +43,16 @@
                 Šišanje, feniranje, farbanje, pramenovi, minival, nadogradnja kose, keratinsko ispravljanje kose.
                 Imamo pripreme za sve vrste svečanosti, vjenčanja, maturalne večeri, rođendane, krštenja, pričesti, krizme, svadbe.
             </p>
-            <image src="./images/hair_salon1.jpg" class="img-fluid mb-4 rounded" alt="Salon Style">
-            <image src="./images/hair_salon2.jpg" class="img-fluid mb-4 rounded" alt="Salon Style">
-            <image src="./images/hair_salon3.jpg" class="img-fluid mb-4 rounded" alt="Salon Style">
-            <div class="embed-responsive embed-responsive-4by3 mb-4", id="gmaps">
+            <div style="display: flex; flex-wrap: wrap;">
+                <div style="flex: 2;">
+                    <img src="./images/hair_salon1.jpg" class="img-fluid mb-4 rounded" alt="Salon Style" style="width: 90%;">
+                    <img src="./images/hair_salon3.jpg" class="img-fluid mb-4 rounded" alt="Salon Style" style="width: 90%;">
+                </div>
+                <div style="flex: 1;">
+                    <img src="./images/hair_salon2.jpg" class="img-fluid mb-4 rounded" alt="Salon Style" style="width: 90%;">
+                </div>
+            </div>
+            <div class="embed-responsive embed-responsive-4by3 mb-4" style="max-height: 300px;">
                 <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2792.8403343258888!2d16.93741807657537!3d45.57364932612892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4767a838ea357651%3A0x84d62b042ff3edd9!2zVWwuIFBldHJhIFN2YcSNacSHYSAxLCA0MzI4MCwgR2FyZcWhbmljYQ!5e0!3m2!1sen!2shr!4v1705487088336!5m2!1sen!2shr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
             </div>
             <a href="./contact.html" class="btn btn-primary">Kontaktiraj nas</a>
@@ -54,7 +60,7 @@
 
         
 
-        <footer class="text-center">
+        <footer class="text-center main-color">
             <p>&copy; 2024 Garmont.</p>
         </footer>
 
